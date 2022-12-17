@@ -1,6 +1,6 @@
 # Portfolio Website
 
-A website to showcase my projects and skills as a developer.
+**A website to showcase my projects and skills as a developer.**
 
 ## Usage
 
