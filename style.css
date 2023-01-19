@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+    color:#fff
   }
   
 body {
@@ -10,11 +11,13 @@ body {
     flex-direction: column;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(35, 42, 66);
+    color: #ddd;
 }
   
 /* Add a black background color to the top navigation */
 nav {
-  background-color: #333;
+  background-color: none;
   overflow: hidden;
   position: fixed;
   top: 0;
@@ -39,13 +42,23 @@ nav a:hover {
 
 /* Add a color to the active/current link */
 nav a.active {
-  /*background-color: #aa1704;*/
   color: white;
 }
 
 /* Style the content */
+main1 {
+  padding-top: 10em;
+}
+
+/* Move text to right */
+main1 section {
+  text-align: center;
+  color:#fff;
+  font-size: 50px;
+}
+
+/* Style the content */
 main {
-    background-color: #ddd;
     padding: 10px;
     padding-top: 50px;
   }
@@ -59,7 +72,7 @@ main section {
 /* Style the footer */
 footer {
     margin-top: auto;
-    background-color: #333;
+    background-color: rgb(35, 42, 66)
     padding: 3px;
     text-align: center;
     color:white;
