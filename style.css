@@ -11,7 +11,7 @@ body {
     flex-direction: column;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(35, 42, 66);
+    background-color: #ce3635;
     color: #ddd;
 }
   
@@ -72,7 +72,7 @@ main section {
 /* Style the footer */
 footer {
     margin-top: auto;
-    background-color: rgb(35, 42, 66)
+    background-color: #ce3635;
     padding: 3px;
     text-align: center;
     color:white;
