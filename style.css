@@ -11,7 +11,7 @@ body {
     flex-direction: column;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #ce3635;
+    background-color: #9E1D37;
     color: #ddd;
 }
   
@@ -45,6 +45,20 @@ nav a.active {
   color: white;
 }
 
+logo { 
+	position:fixed; 
+	top: -10px;; 
+	left: 10px; 
+  font-size: 17px;
+} 
+
+logo p { 
+  border-width:3px; 
+  border-style:solid; 
+  border-color:#ffffff; 
+  padding: 5px;
+} 
+
 /* Style the content */
 main1 {
   padding-top: 10em;
@@ -58,21 +72,93 @@ main1 section {
 }
 
 /* Style the content */
-main {
+main2 {
     padding: 10px;
-    padding-top: 50px;
+    padding-top: 125px;
+
   }
 
 /* Move text to right */
-main section {
-    margin-left: 25%;
-    margin-right: 25%;
+main2 section {
+    margin-left: 45%;
+    margin-right: 15%;
 }
-  
+
+/* Style the content */
+main3 {
+  padding: 10px;
+  padding-top: 50px;
+
+}
+
+/* Move text to right */
+main3 section {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+/* Style the content */
+main4 {
+  padding: 10px;
+  padding-top: 100px;
+
+}
+
+/* Move text to right */
+main4 section {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+main4 section #email { 
+  margin-left: 8%;
+  margin-top: 30%;
+}
+
+main4 section #email img { 
+  margin-left: -9%;
+  margin-top: -100%;
+  width: 150px;
+  height: 150px;
+}
+
+main4 section #linkedin { 
+  margin-left: 45%;
+  margin-top: -70px;
+}
+
+main4 section #linkedin img { 
+  margin-left: -12%;
+  margin-top: -100%;
+  width: 150px;
+  height: 150px;
+}
+
+main4 section #github { 
+  margin-left: 82%;
+  margin-top: -90px;
+}
+
+main4 section #github img { 
+  margin-left: -43%;
+  margin-top: -100%;
+  width: 150px;
+  height: 150px;
+}
+
+pfp img { 
+  margin-left: 20%;
+  margin-top: -500px;
+  width: 20%;
+  height: 20%;
+} 
+
+
+
 /* Style the footer */
 footer {
     margin-top: auto;
-    background-color: #ce3635;
+    background-color: #9E1D37;
     padding: 3px;
     text-align: center;
     color:white;
